@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <main class="main-container">
+
+        <div class="options-bar-container">
+          <div>
+            <object class="logo-icon" title="logo" type="image/svg+xml" data="./images/logo.svg"></object>
+          </div>
+    
+          <div class="box-selectors">
+            <div class="box-fonts-selectors">
+              <div class="tx-log-box">
+                <button class="text-fonts ">Sans Sarif</button>
+                <button class="arrow-selection">
+                  <object class="logo-arrow" title="arrow" type="image/svg+xml" data="./images/icon-arrow-down.svg"></object>
+                </button>
+              </div>
+              <div class="fonts-selector">
+                <div class="font font-1">Sans Serif</div>
+                <div class="font font-2">Serif</div>
+                <div class="font font-3">Mono</div>
+              </div>
+            </div>
+    
+            <div class="toggle-selector">
+              <div class="circle circle-1"></div>
+              <div class="circle circle-2"></div>
+            </div>
+    
+            <svg class="logo-moon" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22"><path class="pat"
+              fill="none" stroke="#838383" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M1 10.449a10.544 10.544 0 0 0 19.993 4.686C11.544 15.135 6.858 10.448 6.858 1A10.545 10.545 0 0 0 1 10.449Z"/></svg>
+          </div>
+        </div>
+    
+    
+        <label class="reserch-bar-container">
+          <input type="text" name="word-input" class="input" placeholder="Search for any word...">
+          <div class="logo-src">
+            <object class="logo-serach" title="serach" type="image/svg+xml" data="./images/icon-search.svg"></object>
+          </div>
+          <span class="error">Whoops, can’t be empty…</span>
+        </label>
+    
+        <div class="content-container">
+    
+          <div class="container-word">
+            <div>
+              <div class="word">dictionary</div>
+              <div class="phonetic">/ˈdɪkʃəˌnɛɹi/</div>
+            </div>
+            
+            
+            <audio class="myAudio" src="https://api.dictionaryapi.dev/media/pronunciations/en/dictionary-uk.mp3"></audio>
+            <div class="logo-play-container">
+              <object class="logo-play" title="play" type="image/svg+xml" data="./images/icon-play.svg"></object>
+            </div> 
+          </div>
+    
+          <div class="verb-noum-container">
+            <div class="verb-noum">noun</div>
+            <div class="row"></div>
+          </div>
+    
+          <div class="container-meaning">
+            <span class="meaning">Meaning</span>
+            <ul class="insertion">
+              <li class="line">A reference work with a list of words from one or more languages, normally ordered alphabetically, explaining each word's meaning, and sometimes containing information on its etymology, pronunciation, usage, translations, and other data.</li>
+              <li class="line">(preceded by the) A synchronic dictionary of a standardised language held to only contain words that are properly part of the language.</li>
+              <li class="line">(by extension) Any work that has a list of material organized alphabetically; e.g., biographical dictionary, encyclopedic dictionary.</li>
+            </ul>
+          </div>
+    
+          <div class="synonyms-container">
+            <div class="syn-title">Synonyms</div>
+            <div class="synonyms"><span class="link-synonyms">wordbook</span></div>
+          </div>
+    
+          <div class="verb-noum-container">
+              <div class="verb-noum">verb</div>
+            <div class="row"></div>
+          </div>
+    
+          <div class="container-meaning">
+            <span class="meaning">Meaning</span>
+            <ul class="insertion">
+              <li class="line">To look up in a dictionary.</li>
+              <li class="line">To add to a dictionary.</li>
+              <li class="line">To compile a dictionary.</li>
+            </ul>
+          </div>
+    
+          <div class="footer-container">
+            <div class="row-footer"></div>
+            <div class="source-container">
+              <div class="source">Source</div>
+              <div>
+               <a class="link-container" href="https://en.wiktionary.org/wiki/dictionary" target="_blank">
+                 <div class="link-name">https://en.wiktionary.org/wiki/dictionary</div>
+                 <object class="logo-new-window" title="new window" type="image/svg+xml" data="./images/icon-new-window.svg"></object>
+               </a>
+              </div>
+            </div>
+          </div>
+    
+        </div>
+      
+
+    <script src="main.js"></script>
+</body>
+</html>

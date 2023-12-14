@@ -1,0 +1,137 @@
+@media (max-width: 550px) {
+
+    .main-container {
+      width: 90vw;
+    }
+    
+    .logo-icon {
+      height: 25px;
+    }
+    
+  
+    .box-selectors {
+      gap: 5vw;
+    }
+    
+    .box-fonts-selectors {
+      width: 120px;
+    }
+  
+  
+    .toggle-selector {
+      margin-left: 0;
+    }
+  
+    
+    .text-fonts {
+      font-size: 16px;
+    }
+  
+    .word {
+      font-size: 8vw;
+    }
+  
+    .logo-play {
+      width: 13vw;
+      height: 13vw;
+    }
+    
+    .phonetic {
+      font-size: 5vw;
+    }
+    
+    .arrow-selection {
+      width: auto;
+      margin-left: 10px;
+    }
+    
+    .reserch-bar-container {
+      height: 48px;
+      
+    }
+    
+    .input {
+      font-size: 4.5vw;
+      width: 100%;
+    }
+    
+    .input::placeholder {
+      font-size: 4.5vw;
+    }
+  
+    .reserch-bar-container-dark {
+      background: var(--1-f-1-f-1-f, #1F1F1F);
+      border-width: 1px;
+    }
+    
+    .reserch-bar-container-dark:hover {
+      border: 1px solid var(--a-445-ed, #A445ED);
+    }
+    
+    .error {
+      top: 55px;
+      font-size: 16px;
+    }
+    
+    .verb-noum {
+      font-size: 18px;
+    }
+    
+    .meaning {
+      font-size: 16px;
+    }
+    
+    .line {
+      font-size: 15px;
+    }
+    
+    .syn-title {
+      font-size: 16px;
+    }
+    
+    .synonyms {
+      font-size: 16px;
+    }
+    
+    .emojy {
+      font-size: 48px;
+      margin-top: 30px;
+    }
+    
+    .not-found-title {
+      font-size: 16px;
+    }
+    
+    .not-found-text {
+      font-size: 14px;
+    }
+  
+    .source {
+      font-size: 4vw;
+    }
+  
+    .link-name {
+      font-size: 3vw;
+    }
+  }
+  
+  
+  @media (max-width: 280px) {
+  
+    .text-fonts {
+      font-size: 5vw;
+    }
+  
+    .word {
+      font-size: 11vw;
+    }
+  
+    .logo-play {
+      width: 15vw;
+      height: 15vw;
+    }
+    
+    .phonetic {
+      font-size: 6vw;
+    }
+  }
